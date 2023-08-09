@@ -13,9 +13,10 @@ public class HashSetCreator {
                     hashSet.add(element);
                     x = x/2;
                 }
+            } else{
+                hashSet.add(element);
+                hashSet.add(2*element);
             }
-            hashSet.add(element);
-            hashSet.add(2*element);
         }
     return hashSet;
     }
